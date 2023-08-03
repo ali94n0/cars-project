@@ -26,6 +26,7 @@
     .container {
       width: 320px;
       flex-wrap: wrap;
+      padding: 0;
     }
   
     .container div {
