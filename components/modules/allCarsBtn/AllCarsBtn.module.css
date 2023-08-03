@@ -1,0 +1,22 @@
+.container {
+    width: 440px;
+    margin: 50px auto;
+}
+
+.container a {
+      border-radius: 5px;
+    background-color:#0db9e0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .container a:hover{
+    background-color: #0ecbf6;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 320px;
+    }
+  }
