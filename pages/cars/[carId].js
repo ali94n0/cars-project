@@ -1,7 +1,15 @@
-import React from "react";
+import { useRouter } from "next/router";
+import CarDetails from "../../components/templates/carDetails/CarDetails";
 
-function CarDetails(props) {
-  return <div>details</div>;
+function CarDetailsPage(props) {
+  const router = useRouter();
+  const id = router.query.carId;
+
+  return (
+    <div>
+      <CarDetails id={id} />
+    </div>
+  );
 }
 
-export default CarDetails;
+export default CarDetailsPage;

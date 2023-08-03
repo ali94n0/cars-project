@@ -7,8 +7,8 @@ function CarsPage({ data }) {
   return (
     <div className={styles.container}>
       {data.map((car) => (
-        <Link href={`/cars/${car.id}`}>
-          <Card key={car.id} {...car} />
+        <Link href={`/cars/${car.id}`} key={car.id}>
+          <Card {...car} />
         </Link>
       ))}
     </div>

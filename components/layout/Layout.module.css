@@ -36,8 +36,5 @@
     margin-top: 120px;
   }
   
-  @media (max-width: 600px) {
-    .header {
-      width: 320px;
-    }
-  }
+  
+  
